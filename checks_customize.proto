@@ -6,7 +6,7 @@ option java_package = "org.liquibase.grpc.proto";
 option java_multiple_files = true;
 option java_outer_classname = "ChecksCustomizeProto";
 
-package liquibase;
+package liquibase.pro;
 
 service ChecksCustomizeService {
   rpc execute(Checks.CustomizeRequest) returns (Response) {}
