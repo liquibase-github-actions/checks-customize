@@ -6,7 +6,7 @@ CLI-guided configuration of the named check
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/checks-customize@v4.32.0
+- uses: liquibase-github-actions/checks-customize@v4.33.0
   with:
     # Name of check to configure
     # string
@@ -40,7 +40,7 @@ The liquibase checks customize action accepts all valid liquibase global options
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/checks-customize@v4.32.0
+  - uses: liquibase-github-actions/checks-customize@v4.33.0
     with:
       checkName: ""
       headless: true
